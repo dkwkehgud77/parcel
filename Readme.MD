@@ -14,18 +14,3 @@ git log
 
 git remote add origin https://github.com/dkwkehgud77/parcel.git
 git push origin master 
-
-
-npm init -y
-npm i -D webpack webpack-cli webpack-dev-server@next
-
-package.json
-{
-  "name": "webpack-template-basic",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "webpak-dev-server --mode development",
-    "build": "webpack --mode production"  
-  },
