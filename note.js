@@ -10,7 +10,7 @@ vi package.json
   "scripts": {
     "dev": "webpak-dev-server --mode development",
     "build": "webpack --mode production"  
- }
+}
 
 vi webpack.config.js
 module.exports = {
